@@ -1,0 +1,187 @@
+.mainContainer {
+    width: 960px;
+    height: 544px;
+    margin: 24px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.uperContactContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    height: 544px;
+}
+.textContainer {
+    width: 386px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.textContainer img{
+    width: 24px;
+    height: 24px;
+}
+.textContainer p {
+    color: var(--Primary-Colors-Black-100, #171717);
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px; 
+    margin: 0; 
+}
+.textContainer span{
+    color: var(--Black-Shades-Black-80, #535D66);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.formContainer {
+    width: 502px;
+    padding: 24px;
+    border: 0.5px solid var(--Black-Shades-Black-10, #EEEEF4);
+    border-radius: 16px;
+    background: var(--Black-Shades-White-100, #FFF);
+    display: flex;
+    flex-direction: column;
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.form1 {
+    display: flex;
+    gap: 24px;
+    width: 502px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.form1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.form1 input {
+    width: 215px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--Black-Shades-Black-10, #EEEEF4);
+    background: var(--Black-Shades-White-100, #FFF);
+    outline: none;
+}
+.form1 label {
+    color: var(--Primary-Colors-Black-100, #171717);
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 14px;  
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.form2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.form2 input {
+    width: 478px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid var(--Black-Shades-Black-10, #EEEEF4);
+    background: var(--Black-Shades-White-100, #FFF);   
+}
+.form2 label{
+    color: var(--Primary-Colors-Black-100, #171717);
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 14px; /* 116.667% */ 
+}
+.form3 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 502px;
+    height: 114px;
+}
+.form3 textarea {
+    height: 72px;
+    display: flex;
+    padding: 10px 12px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--Black-Shades-Black-10, #EEEEF4);
+    background: var(--Black-Shades-White-100, #FFF);    
+    outline: none; 
+}
+.form3 label {
+    color: var(--Primary-Colors-Black-100, #171717);
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 14px;  
+}
+.form3 textarea:focus::placeholder{
+    opacity: 0;
+}
+.check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.check input {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1px solid var(--Black-Shades-Black-10, #EEEEF4);
+    background: var(--Black-Shades-White-100, #FFF);
+}
+.check label{
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.btns button {
+    display: flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;  
+    border-radius: 10px;
+    background: var(--Black-Shades-Black-10, #EEEEF4);
+    color: var(--Primary-Colors-Black-100, #171717);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 18px;    
+    border: none;  
+    cursor: pointer;
+    transition: 1s;
+}
+.btns button:hover {
+    background-color: #797E82;
+}

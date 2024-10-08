@@ -1,0 +1,21 @@
+.transactionHeader {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    gap: 756px;
+    background-color: white;
+}
+.transactionContainer {
+    background: var(--Black-Shades-Black-05, #F3F3F7);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.transactionHeader h1 {
+    margin-left: 114px;
+}
+.transactionHeader img {
+    position: absolute;
+    right: 123px;
+}

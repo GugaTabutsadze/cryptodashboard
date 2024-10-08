@@ -1,0 +1,68 @@
+.dataMainContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+.listContainer{
+    width: 912px;
+    height: 52px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 110px;
+    margin-bottom: 9px;
+    border-bottom: 1px solid #EEEEF4;
+}
+.listContainer:last-child {
+    border: none;
+    
+}
+.dateTime {
+    display: flex;
+    flex-direction: column;
+}
+.date, .thing, .amou, .id {
+    color: var(--Primary-Colors-Black-100, #171717);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; 
+}
+.time, .tag, .price {
+    color: var(--Black-Shades-Black-60, #797E82);
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;   
+}
+.type {
+    width: 90px;  
+}
+.amount {
+    width: 124px;
+    color: var(--Primary-Colors-Black-100, #171717);
+    /* Paragraphs/P2/Medium */
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px   
+}
+.status {
+    padding: 4px 6px;
+    border-radius: 100px;
+    color: var(--Black-Shades-White-100, #FFF);
+    text-align: right;
+    /* Paragraphs/P3/Medium */
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;   
+}
+
+

@@ -1,0 +1,33 @@
+.loansContainer {
+    max-width: 422px;
+    height: 130px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 16px;
+    margin: 24px 0 0 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loanCont {
+    width: 45px;
+    padding: 4px 6px;
+    border-radius: 100px;
+    background: var(--Purple, #5F00D9);
+    color: white;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+}
+.loansContainer p {
+    color: var(--Primary-Colors-Black-100, #171717);
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 22px;
+}

@@ -1,0 +1,131 @@
+.tableContainer {
+    width: 960px;
+    height: 492px;
+    padding: 16px 0 0 0;
+    background-color: white;
+    margin: 12px auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}
+.Header {
+    width: 960px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+.tableContent{
+    width: 912px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.filters {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 229px;
+    border-bottom: 1px solid #D8DDE2;
+}
+.tabsSection {
+    width: 496px;
+    height: 38px;
+    display: flex;
+}
+.tab1 {
+    width: 105px;
+    height: 22px;
+    padding-bottom: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.tab1:hover {
+    border-bottom: 2px solid #5F00D9;
+    bottom: 5px;
+}
+.tab2 {
+    width: 133px;
+    height: 22px;
+    padding-bottom: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.tab2:hover {
+    border-bottom: 2px solid #5F00D9;
+}
+.tabsSection span {
+    color: var(--Black-Shades-Black-60, #797E82);
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;   
+}
+.number {
+    padding: 4px 6px;
+    border-radius: 100px;
+    background: var(--Black-Shades-Black-05, #F3F3F7);
+}
+.searchSection {
+    width: 195px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.searchSection  input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--Black-Shades-Black-60, #797E82);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;   
+}
+.searchSection input:focus::placeholder {
+    opacity: 0;
+}
+.searchSection img {
+    color: var(--Black-Shades-Black-60, #797E82);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;    
+}
+.headingSection {
+    width: 960px;
+    height: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 164px;
+    border-bottom: 1px solid #D8DDE2;
+    color: var(--Black-Shades-Black-60, #797E82);
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;    
+}
+.headingSection span {
+    cursor: pointer;
+}
+.dateTime, .amount {
+    display: flex;
+    align-items: center;
+}

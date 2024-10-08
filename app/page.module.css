@@ -1,0 +1,8 @@
+.main {
+    display: flex;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}

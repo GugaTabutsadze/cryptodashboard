@@ -1,0 +1,90 @@
+.transactionContainer {
+    width: 468px;
+    height: 345px;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.transHeader {
+   margin-right: 300px;
+   color: var(--Black-Shades-Black-80, #535D66);
+   font-family: Ubuntu;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: 18px; 
+}
+.transactionContainer button {
+    width: 420px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: var(--Black-Shades-Black-10, #EEEEF4);
+    color: var(--Primary-Colors-Black-100, #171717);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px; 
+    margin-top: 27px;
+}
+.currentTransactionsContainer {
+    width: 420px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.list1, .list2 {
+    width: 420px;
+    min-height: 58px;
+    display: flex;
+    gap: 16px;
+}
+.list3 {
+    width: 420px;
+    min-height: 42px;
+    display: flex;
+    gap: 16px;
+}
+.icon1 {  
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background: var(--Black-Shades-Black-05, #F3F3F7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content1 {
+    width: 364px;
+    height: 42px;
+    border-bottom: 1px solid #EEEEF4;
+    display: flex;
+    justify-content: space-between;
+}
+.content1 div {
+    display: flex;
+    flex-direction: column;
+}
+.upperText {
+    color: var(--Primary-Colors-Black-100, #171717);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+}
+.lowerText {
+    color: var(--Black-Shades-Black-60, #797E82);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}

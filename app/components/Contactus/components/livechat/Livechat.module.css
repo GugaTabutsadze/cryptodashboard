@@ -1,0 +1,67 @@
+.liveChatContainer {
+    margin: 80px auto;
+    width: 960px;
+    min-height: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.liveChat {
+    width: 386px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.liveChat img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.liveChat p {
+    margin: 0;
+    color: var(--Primary-Colors-Black-100, #171717);
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 36px;    
+}
+.liveChat span {
+    color: var(--Black-Shades-Black-80, #535D66);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.contact {
+    width: 502px;
+    padding: 24px;
+    background: var(--Purple, #5F00D9);
+    border-radius: 16px;
+}
+.contact p {
+    color: var(--Black-Shades-White-100, #FFF);
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; 
+}
+.chatbot {
+    width: 46px;
+    border-radius: 100px;
+    padding: 4px 6px;
+    background-color: white;
+    color: var(--Purple, #5F00D9);
+    text-align: right;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 14px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
